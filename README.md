@@ -9,4 +9,4 @@ To sync:
     curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/PicoKat/local_manifest/master/local_manifest.xml
     repo sync
     sh vendor/cm/get-prebuilts
-    sh device/htc/pico/apply-patches
+    sh device/htc/pico/cherries
