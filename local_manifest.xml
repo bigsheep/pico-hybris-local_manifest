@@ -24,7 +24,7 @@
 <remove-project name="CyanogenMod/android_build"/>
 <remove-project name="CyanogenMod/android_frameworks_av"/>
 <remove-project name="CyanogenMod/android_frameworks_native"/>
-<remove-project name="CyanogenMod/androiid_frameworks_webwiew"/>
+<remove-project name="CyanogenMod/androiid_frameworks_webview"/>
 <remove-project name="CyanogenMod/android_hardware_libhardware_legacy"/>
 <remove-project name="CyanogenMod/android_vendor_cm"/>
 
