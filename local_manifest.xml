@@ -24,10 +24,9 @@
 <remove-project name="CyanogenMod/android_frameworks_av"/>
 <project path="frameworks/av" name="Evervolv/android_frameworks_av" revision="kitkat" />
 
-<!-- Webkit -->
-<project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
-
-<!-- ION-supported display-legacy -->
+<!-- display-legacy (PMEM ADSP for camera) -->
 <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" revision="kitkat" />
 
+<!-- Webkit -->
+<project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
 </manifest>
