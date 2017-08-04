@@ -25,19 +25,19 @@
 <remove-project name="CyanogenMod/android_hardware_libhardware_legacy"/>
 <remove-project name="CyanogenMod/android_vendor_cm"/>
 <!-- LegaCyMod Repos -->
-    <project path="build" name="legaCyMod/android_build" revision="cm-11.0" >
+    <project path="build" name="bigsheep/pico-legaCyMod-android_build" revision="cm-11.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
-<project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
-<project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-11.0" />
-<project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-<project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-11.0" />
+<project path="frameworks/native" name="bigsheep/pico-legaCyMod-android_frameworks_native" revision="cm-11.0" />
+<project path="hardware/libhardware_legacy" name="bigsheep/pico-legaCyMod-android_hardware_libhardware_legacy" revision="cm-11.0" />
+<project path="hardware/qcom/media-legacy" name="bigsheep/pico-legaCyMod-android_hardware_qcom_media-legacy" revision="cm-11.0" />
+<project path="vendor/cm" name="bigsheep/pico-legaCyMod-android_vendor_cm" revision="cm-11.0" />
 <!-- Hacked Repos -->
-<project path="frameworks/av" name="PicoKat/android_frameworks_av" revision="cm-11.0" />
+<project path="frameworks/av" name="bigsheep/pico-PicoKat-android_frameworks_av" revision="cm-11.0" />
 <!-- ION-supported display-legacy -->
-<project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" revision="kitkat" />
+<project path="hardware/qcom/display-legacy" name="bigsheep/pico-szezso-android_hardware_qcom_display-legacy" revision="kitkat" />
 <!-- Device Tree, Kernel and Vendor -->
-<project path="device/htc/pico" name="PicoKat/android_device_htc_pico" revision="kitkat" />
-<project path="kernel/htc/pico" name="PicoKat/android_kernel_htc_pico" revision="ion"/>
-<project path="vendor/htc/pico" name="PicoKat/android_vendor_htc_pico" revision="kitkat" />
+<project path="device/htc/pico" name="bigsheep/pico-PicoKat-android_device_htc_pico" revision="kitkat" />
+<project path="kernel/htc/pico" name="bigsheep/pico-PicoKat-android_kernel_htc_pico" revision="ion"/>
+<project path="vendor/htc/pico" name="bigsheep/pico-PicoKat-android_vendor_htc_pico" revision="kitkat" />
 </manifest>
