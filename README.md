@@ -1,4 +1,4 @@
-PicoKat
+cloned from PicoKat
 ==============
 
 The local manifests for building CM11 for HTC Explorer/Pico.
